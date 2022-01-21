@@ -1,13 +1,16 @@
 # EJ-pylib
 Library of Python functions for importing
 
-Here is a rundown of the names of Python functions that are included in each .py file
+Here is a rundown of the names of Python functions that are included in each .py file.
+
 Also below I will have a list of future ones I plan to add
 
 Current functions included:
 
 Spatial calculations (spatial_calcs.py)
+  
   Haversine formula
+  
   Hypotenuse formula
   
 Future scripts to include:
