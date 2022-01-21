@@ -9,16 +9,12 @@ Current functions included:
 
 Spatial calculations (spatial_calcs.py)
   
-  Haversine formula
-  
-  Hypotenuse formula
+	Haversine formula
+	Hypotenuse formula
   
 Future scripts to include:
 
-Cyclone phase space calculations
-
-Conversion from Cartesian to polar coordinates
-
-TC-specific calculations
-
-Conversion from .mat to .nc files
+	Cyclone phase space calculations
+	Conversion from Cartesian to polar coordinates
+	TC-specific calculations
+	Conversion from .mat to .nc files
