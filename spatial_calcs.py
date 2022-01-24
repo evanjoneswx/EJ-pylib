@@ -2,8 +2,8 @@ import numpy as np
 
 def haversine(lat1, lon1, lat2, lon2):  
     '''This function calculates the Haversine distance on Earth's surface (great circle distance) between two points 
-        Inputs: lat1, lon1 are the reference coordinates to start with (0 360 for longitude)
-                lat2, lon2 are the coordinates the distance is being calculated to. 
+        Inputs: lat1, lon1: reference coordinates to start with (0 360 for longitude)
+                lat2, lon2: coordinates the distance is being calculated to. 
                 Note that lat2/lon2 can be 2D meshgrids as well and would return an array of the distances
         Outputs: Haversine distance in km (either one value or array of values depending on inputs chosen)'''
     # distance between latitudes 
@@ -24,8 +24,8 @@ def haversine(lat1, lon1, lat2, lon2):
 
 def hypotenuse(res,lat1,lon1):
     '''This function calculates the hypotenuse distance across a grid box based on the resolution of your dataset (most useful with reanalyses)
-        Inputs: res is the resolution of the dataset in degrees (note that for rectangular resolutions like MERRA2, the function would need to be modified)
-                lat1, lon1 are the reference coordinates to start with (0 360 for longitude)
+        Inputs: res: resolution of the dataset in degrees (note that for rectangular resolutions like MERRA2, the function would need to be modified)
+                lat1, lon1: reference coordinates to start with (0 360 for longitude)
                 Note that lat1/lon1 can be 2D meshgrids as well and would return an array of the hypotenuses
         Outputs: Hypotenuse distance in km (either one value or array of values depending on inputs chosen)'''
     latgrid = lat1-(res/2)
@@ -44,8 +44,8 @@ def hypotenuse(res,lat1,lon1):
 
 def bearing(lat1,lon1,lat2,lon2):
     '''This function calculates the bearing (from true north CW) on a gridded dataset between two points
-        Inputs: lat1, lon1 are the reference coordinates to start with (0 360 for longitude)
-                lat2, lon2 are the coordinates the bearing is being calculated to. 
+        Inputs: lat1, lon1: reference coordinates to start with (0 360 for longitude)
+                lat2, lon2: coordinates the bearing is being calculated to. 
                 Note that lat2/lon2 can be 2D meshgrids as well and would return an array of the bearings
         Outputs: Bearing in degrees (either one value or array of values depending on inputs chosen)'''
     # constants
