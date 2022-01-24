@@ -11,6 +11,12 @@ Spatial calculations (spatial_calcs.py)
   
 	Haversine formula
 	Hypotenuse formula
+	Bearing formula
+	
+Data Manipulation (data_manipulation.py)
+
+	Select a subset of data
+	Temperature gradient calculation
   
 Future scripts to include:
 
