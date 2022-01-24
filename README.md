@@ -13,15 +13,23 @@ Spatial calculations (spatial_calcs.py)
 	Hypotenuse formula
 	Bearing formula
 	
-Data Manipulation (data_manipulation.py)
+Data manipulation (data_manipulation.py)
 
 	Select a subset of data
 	Temperature gradient calculation
-  
+	
+Cyclone phase space calculations (cps_calcs.py)
+
+	Thickness asymmetry (B)
+	Upper tropospheric thermal wind (Vut)
+	Lower tropospheric thermal wind (Vlt)
+	24-hr running mean (smoothed)
+	
+Conversion of .mat to .nc files (mat_to_nc.py)
+
+Conversion from Cartesian to polar coordinates (cartesian_to_polar.py)
+	
 Future scripts to include:
 
-	Cyclone phase space calculations
-	Conversion from Cartesian to polar coordinates
 	TC-specific calculations
-	Conversion from .mat to .nc files
 	Plotting functions
